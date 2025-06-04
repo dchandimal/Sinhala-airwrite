@@ -9,6 +9,7 @@ const SignificanceSection = () => {
             <h2 className="section-title">Significance and Application</h2>
           </div>
         </div>
+
         <div className="row mb-5">
           <div className="col-md-4 mb-4">
             <div className="card h-100 border-0 shadow-sm">
@@ -36,6 +37,7 @@ const SignificanceSection = () => {
               </div>
             </div>
           </div>
+
           <div className="col-md-4 mb-4">
             <div className="card h-100 border-0 shadow-sm">
               <div className="card-body text-center">
@@ -93,6 +95,7 @@ const SignificanceSection = () => {
               </div>
             </div>
           </div>
+
           <div className="col-md-4 mb-4">
             <div className="card h-100 border-0 shadow-sm">
               <div className="card-body text-center">
@@ -148,21 +151,13 @@ const SignificanceSection = () => {
                 controls
                 width="100%"
                 height="auto"
-                poster="/videos/demo-poster.jpg" // Optional: Add a poster image
                 style={{ maxWidth: "100%", height: "auto" }}
               >
-                {/* Your actual demo video */}
-                <source src="/videos/demo-video.mp4" type="video/mp4" />
-                <source src="/videos/demo-video.webm" type="video/webm" />
-
-                {/* Fallback message */}
-                <p className="text-muted">
-                  Your browser does not support the video tag.
-                  <a href="/videos/demo-video.mp4" className="text-primary">
-                    Download the video
-                  </a>{" "}
-                  instead.
-                </p>
+                <source
+                  src={`${process.env.PUBLIC_URL}/videos/demo-video.mp4`}
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
               </video>
 
               {/* Video description */}
