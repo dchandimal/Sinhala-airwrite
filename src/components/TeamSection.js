@@ -5,27 +5,27 @@ import member1Photo from "../assets/team/member1.jpeg";
 import member2Photo from "../assets/team/member2.jpeg";
 import member3Photo from "../assets/team/member3.jpeg";
 // Optional: import supervisor photos
-import supervisorPhoto from "../assets/team/supervisor.jpeg";
-import coSupervisorPhoto from "../assets/team/co-supervisor.jpeg";
+import supervisorPhoto from "../assets/team/supervisor.jpg";
+import coSupervisorPhoto from "../assets/team/co-supervisor.jpg";
 
 const TeamSection = () => {
   const teamMembers = [
     {
       name: "D.C. Ukwaththage",
       id: "ICT/20/950",
-      email: "ict20950@sjp.ac.lk",
+      email: "ict20950@fot.sjp.ac.lk",
       photo: member1Photo,
     },
     {
       name: "W.W.A. Hemal",
       id: "ICT/20/848",
-      email: "ict20848@sjp.ac.lk",
+      email: "ict20848@fot.sjp.ac.lk",
       photo: member2Photo,
     },
     {
       name: "Naveen K.D.C.",
       id: "ICT/20/891",
-      email: "ict20891@sjp.ac.lk",
+      email: "ict20891@fot.sjp.ac.lk",
       photo: member3Photo,
     },
   ];

@@ -16,67 +16,6 @@ const AboutSection = () => {
               and intuitive interface for digital interaction in the Sinhala
               language.
             </p>
-
-            {/* Additional project details */}
-            <div className="row">
-              <div className="col-md-6 mb-3">
-                <div className="d-flex align-items-center">
-                  <div className="flex-shrink-0 me-3">
-                    <div
-                      className="bg-primary rounded-circle d-flex align-items-center justify-content-center"
-                      style={{ width: "40px", height: "40px" }}
-                    >
-                      <svg
-                        width="20"
-                        height="20"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M9 12l2 2 4-4"
-                          stroke="white"
-                          strokeWidth="2"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        />
-                      </svg>
-                    </div>
-                  </div>
-                  <div>
-                    <h6 className="mb-0">Deep Learning</h6>
-                    <small className="text-muted">CNN + RNN Architecture</small>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-6 mb-3">
-                <div className="d-flex align-items-center">
-                  <div className="flex-shrink-0 me-3">
-                    <div
-                      className="bg-primary rounded-circle d-flex align-items-center justify-content-center"
-                      style={{ width: "40px", height: "40px" }}
-                    >
-                      <svg
-                        width="20"
-                        height="20"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
-                          fill="white"
-                        />
-                      </svg>
-                    </div>
-                  </div>
-                  <div>
-                    <h6 className="mb-0">Real-time Recognition</h6>
-                    <small className="text-muted">Air Writing Detection</small>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
 
           <div className="col-lg-4 text-center">
