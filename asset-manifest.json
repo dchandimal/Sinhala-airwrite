@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/Sinhala-airwrite/static/css/main.0efe14ac.css",
-    "main.js": "/Sinhala-airwrite/static/js/main.b03d13f6.js",
+    "main.js": "/Sinhala-airwrite/static/js/main.f9dd4aee.js",
     "static/media/about-illustration.png": "/Sinhala-airwrite/static/media/about-illustration.127d43c5b921353b5f44.png",
     "static/media/member1.jpeg": "/Sinhala-airwrite/static/media/member1.92d48b106884475c1b34.jpeg",
     "static/media/usj-logo.png": "/Sinhala-airwrite/static/media/usj-logo.02fbbae13b80d7474970.png",
-    "static/media/co-supervisor.jpeg": "/Sinhala-airwrite/static/media/co-supervisor.21573f8ed475c0408834.jpeg",
-    "static/media/member3.jpeg": "/Sinhala-airwrite/static/media/member3.3e8cd59c716c726713bb.jpeg",
+    "static/media/member3.jpeg": "/Sinhala-airwrite/static/media/member3.1ce8627a9fec508c9a10.jpeg",
     "static/media/member2.jpeg": "/Sinhala-airwrite/static/media/member2.5cbf0085f6bdd585288e.jpeg",
-    "static/media/supervisor.jpeg": "/Sinhala-airwrite/static/media/supervisor.6ec9df618dbf244811bd.jpeg",
+    "static/media/co-supervisor.jpg": "/Sinhala-airwrite/static/media/co-supervisor.93c79d4235aebdf1e6b0.jpg",
+    "static/media/supervisor.jpg": "/Sinhala-airwrite/static/media/supervisor.636215dfba6709a5fac5.jpg",
     "index.html": "/Sinhala-airwrite/index.html",
     "main.0efe14ac.css.map": "/Sinhala-airwrite/static/css/main.0efe14ac.css.map",
-    "main.b03d13f6.js.map": "/Sinhala-airwrite/static/js/main.b03d13f6.js.map"
+    "main.f9dd4aee.js.map": "/Sinhala-airwrite/static/js/main.f9dd4aee.js.map"
   },
   "entrypoints": [
     "static/css/main.0efe14ac.css",
-    "static/js/main.b03d13f6.js"
+    "static/js/main.f9dd4aee.js"
   ]
 }
