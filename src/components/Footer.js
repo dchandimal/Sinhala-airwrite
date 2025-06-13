@@ -6,11 +6,25 @@ import usjLogo from "../assets/logos/usj-logo.png";
 // import facultyLogo from '../assets/logos/faculty-logo.png';
 
 const Footer = () => {
+  const coreTools = [
+    "React.js",
+    "Python",
+    "Flask",
+    "TensorFlow",
+    "OpenCV",
+    "MediaPipe",
+    "NumPy",
+    "pandas",
+    "scikit-learn",
+    "VS Code",
+    "Jupyter Notebook (Anaconda)",
+  ];
+
   return (
     <footer id="footer" className="bg-dark text-white py-4">
       <div className="container">
         <div className="row align-items-center">
-          <div className="col-md-8">
+          <div className="col-md-3">
             <div className="d-flex align-items-center mb-2 mb-md-0">
               {/* University Logo */}
               <div className="me-3">
@@ -33,23 +47,55 @@ const Footer = () => {
               </div>
               <div>
                 <p className="mb-0 small">
-                  © 2024 ICT Department, Faculty of Technology
+                  © 2025 ICT Department
+                  <br />
+                  Faculty of Technology
                   <br />
                   <strong>University of Sri Jayewardenepura</strong>
                 </p>
               </div>
             </div>
           </div>
-          <div className="col-md-4 text-md-end">
+
+          {/* Core Tools & Technologies Section */}
+          <div className="col-md-6">
+            <div className="text-center">
+              <h6
+                className="mb-2 text-light"
+                style={{ fontSize: "0.9rem", fontWeight: "600" }}
+              >
+                Core Tools & Technologies
+              </h6>
+              <div className="d-flex flex-wrap justify-content-center gap-1">
+                {coreTools.map((tool, index) => (
+                  <span
+                    key={index}
+                    className="badge bg-secondary text-light"
+                    style={{
+                      fontSize: "0.7rem",
+                      fontWeight: "400",
+                      padding: "3px 6px",
+                      margin: "1px",
+                      opacity: 0.8,
+                    }}
+                  >
+                    {tool}
+                  </span>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          <div className="col-md-3 text-md-end">
             <p className="mb-0 small">
-              <strong>Developed by:</strong>
+              <strong>Work by:</strong>
               <br />
               Group 18
             </p>
             {/* Optional: Add social links or contact */}
             <div className="mt-2">
               <a
-                href="dinushachandimal186@gmail.com"
+                href="mailto:dinushachandimal186@gmail.com"
                 className="text-light me-3"
                 style={{ textDecoration: "none" }}
               >
