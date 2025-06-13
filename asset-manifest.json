@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Sinhala-airwrite/static/css/main.0efe14ac.css",
-    "main.js": "/Sinhala-airwrite/static/js/main.14e3ea4e.js",
+    "main.js": "/Sinhala-airwrite/static/js/main.d2b0ff91.js",
     "static/media/about-illustration.png": "/Sinhala-airwrite/static/media/about-illustration.127d43c5b921353b5f44.png",
     "static/media/member1.jpeg": "/Sinhala-airwrite/static/media/member1.92d48b106884475c1b34.jpeg",
     "static/media/usj-logo.png": "/Sinhala-airwrite/static/media/usj-logo.02fbbae13b80d7474970.png",
@@ -11,10 +11,10 @@
     "static/media/supervisor.jpg": "/Sinhala-airwrite/static/media/supervisor.636215dfba6709a5fac5.jpg",
     "index.html": "/Sinhala-airwrite/index.html",
     "main.0efe14ac.css.map": "/Sinhala-airwrite/static/css/main.0efe14ac.css.map",
-    "main.14e3ea4e.js.map": "/Sinhala-airwrite/static/js/main.14e3ea4e.js.map"
+    "main.d2b0ff91.js.map": "/Sinhala-airwrite/static/js/main.d2b0ff91.js.map"
   },
   "entrypoints": [
     "static/css/main.0efe14ac.css",
-    "static/js/main.14e3ea4e.js"
+    "static/js/main.d2b0ff91.js"
   ]
 }
